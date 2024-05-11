@@ -41,7 +41,7 @@ header{
   z-index: 100;
 }
 header a{
-  color: white;
+  color: #364C63;
   text-shadow: 1px 1px 5px var(--primaryColor);
   text-transform: capitalize;
   text-decoration: none;
@@ -52,12 +52,13 @@ header a{
   transition: 1s ease;
 }
 header a:hover{
-  color: var(--primaryColor);
+  color: #F3B340;
 }
 .header-text{
   color: #364C63;
   font-size: 1.2rem;
   font-weight: 700;
+  letter-spacing: 5px;
   text-shadow: 0px 0px 2px #000000;
 }
 .header-text span{
@@ -231,7 +232,7 @@ section{
   font-size: 1.2rem;
 }
 .contact .material-icons{
-  color: F3B340;
+  color: #F3B340;
   font-size: 2rem;
 
 }
@@ -239,7 +240,7 @@ section{
 /* FOOTER */
 .footer{
   background-color: #F3B340;
-  color: #364C63;
+  color: black;
   display: flex;
   justify-content: center;
   padding: 5px;
