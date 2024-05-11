@@ -1,2 +1,2 @@
-# sorgente-pharma.gethub.io
+# sorgente-pharma.github.io
 SORGENTE SRL website
