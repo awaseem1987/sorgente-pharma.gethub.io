@@ -93,7 +93,7 @@ section{
 
 /* TITLE */
 .title{
-  color: var(--primaryColor);
+  color: #364C63;
   text-align: center;
   font-size: 1.8em;
   font-weight: bold;
@@ -104,7 +104,7 @@ section{
 .title:after{
   display: inline-block;
   content: "";
-  border-top: .3rem solid var(--secondaryColor);
+  border-top: .3rem solid #F3B340;
   width: 2rem;
   margin: 0 .5rem;
   transform: translateY(-0.5rem);
@@ -161,8 +161,8 @@ section{
   flex-wrap: wrap;
 }
 .service .service-container div{
-  background-color: var(--secondaryColor);
-  color: white;
+  background-color: #F3B340;
+  color: #364C63;
   width: 150px;
   height: 150px;
   display: flex;
@@ -179,7 +179,7 @@ section{
   height: 160px;
 }
 .service .service-container div .material-icons{
-  color: white;
+  color: #364C63;
   font-size: 3rem;
 }
 
@@ -223,7 +223,7 @@ section{
 
 /* CONTACT */ 
 .contact{
-  background-color: var(--bgColor-1);
+  background-color: var(--bgColor-2);
   display: flex;
   flex-direction: column;
 }
@@ -231,7 +231,7 @@ section{
   font-size: 1.2rem;
 }
 .contact .material-icons{
-  color: var(--secondaryColor);
+  color: F3B340;
   font-size: 2rem;
 
 }
@@ -245,6 +245,7 @@ section{
   padding: 5px;
   font-weight: normal;
 }
+
 
 @media (max-width: 400px) {
   html{
